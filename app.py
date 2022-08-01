@@ -3,7 +3,7 @@ import numpy as np
 import sklearn
 import streamlit as st
 
-final_model = pickle.load(open('startup.pkl','rb'))
+final_model = pickle.load(open('startups.pkl','rb'))
 
 
 def main():
