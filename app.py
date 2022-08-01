@@ -10,7 +10,7 @@ import numpy as np
 import sklearn
 import streamlit as st
 
-final_model = pickle.load(open(r'G:\Startups\startup.pkl','rb'))
+final_model = pickle.load(open('startup.pkl','rb'))
 
 
 def main():
